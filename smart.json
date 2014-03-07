@@ -4,7 +4,7 @@
     "homepage": "https://github.com/ccll/meteor-angularite",
     "author": "ccll_cailei <cailei@live.com>",
     "git": "https://github.com/ccll/meteor-angularite.git",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "packages": {
         "bower": {
             "git": "https://github.com/ccll/meteor-bower.git",
