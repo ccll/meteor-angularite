@@ -28,6 +28,13 @@ Angularite.setTemplateDelimeter = function(startSymbol, endSymbol) {
 
 // Define a new module.
 Angularite.module = function(modname, deps) {
+
+    // Return the module object if already initialied.
+    if (_.has(_mods, modname)) {
+        return _mods[modname];
+    }
+
+    // Create new module and initilaize.
     var mod = angular.module(modname, deps);
     _mods[modname] = mod;
 
