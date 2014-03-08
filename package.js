@@ -11,6 +11,5 @@ Package.on_use(function (api) {
     // Install bower components.
     api.add_files('smart.json', 'client');
 
-    api.add_files('bower_components/angular/angular.js', 'client');
     api.add_files('angularite.js', 'client');
 });
