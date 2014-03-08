@@ -28,7 +28,7 @@ So angularite is suitable for production:
 
 
 ## API
-#### `Angularite.setTemplateDelimeter(start, end)`
+### `Angularite.setTemplateDelimeter(start, end)`
 Set the delimeter used in template interpolation. The default is `[[` and `]]`.
 
 ### `Angularite.module(modname, deps) -> mod`
